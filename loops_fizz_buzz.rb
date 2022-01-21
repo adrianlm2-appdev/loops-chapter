@@ -7,12 +7,12 @@
 
 counter = 1
 while counter <=100
- if counter % 3 == 0
-   p "Fizz"
+ if counter % 15 == 0
+   p "FizzBuzz"
  elsif counter % 5 == 0
   p "Buzz"
- elsif counter % 15 == 0
-  p "FizzBuzz"
+ elsif counter % 3 == 0
+  p "Fizz"
  else
   p counter
  end
